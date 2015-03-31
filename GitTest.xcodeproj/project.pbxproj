@@ -14,6 +14,7 @@
 		E22FA2C11ACB45BC008F5A69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22FA2C01ACB45BC008F5A69 /* Images.xcassets */; };
 		E22FA2C41ACB45BC008F5A69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22FA2C21ACB45BC008F5A69 /* LaunchScreen.xib */; };
 		E22FA2D01ACB45BC008F5A69 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FA2CF1ACB45BC008F5A69 /* GitTestTests.m */; };
+		E22FA30D1ACB4F4D008F5A69 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FA30C1ACB4F4D008F5A69 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E22FA2C91ACB45BC008F5A69 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22FA2CE1ACB45BC008F5A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E22FA2CF1ACB45BC008F5A69 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		E22FA30B1ACB4F4D008F5A69 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E22FA30C1ACB4F4D008F5A69 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				E22FA2B81ACB45BC008F5A69 /* AppDelegate.m */,
 				E22FA2BA1ACB45BC008F5A69 /* ViewController.h */,
 				E22FA2BB1ACB45BC008F5A69 /* ViewController.m */,
+				E22FA30B1ACB4F4D008F5A69 /* Test.h */,
+				E22FA30C1ACB4F4D008F5A69 /* Test.m */,
 				E22FA2BD1ACB45BC008F5A69 /* Main.storyboard */,
 				E22FA2C01ACB45BC008F5A69 /* Images.xcassets */,
 				E22FA2C21ACB45BC008F5A69 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22FA2BC1ACB45BC008F5A69 /* ViewController.m in Sources */,
+				E22FA30D1ACB4F4D008F5A69 /* Test.m in Sources */,
 				E22FA2B91ACB45BC008F5A69 /* AppDelegate.m in Sources */,
 				E22FA2B61ACB45BC008F5A69 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				E22FA2D51ACB45BC008F5A69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E22FA2D61ACB45BC008F5A69 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				E22FA2D81ACB45BC008F5A69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
